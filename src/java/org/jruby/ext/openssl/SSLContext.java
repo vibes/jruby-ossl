@@ -493,7 +493,7 @@ public class SSLContext extends RubyObject {
         if (value != null && !value.isNil()) {
             return value.convertToString().toString();
         } else {
-            return null;
+            return System.getenv("SSL_CERT_DIR");
         }
     }
 

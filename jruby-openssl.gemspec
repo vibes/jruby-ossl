@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "jruby-openssl"
-  s.version = "0.7.6"
+  s.version = "0.8.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ola Bini and JRuby contributors"]
